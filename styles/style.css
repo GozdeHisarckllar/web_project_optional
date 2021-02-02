@@ -35,7 +35,7 @@
     border-right:13px solid black;
 }
 
-.content_item_shrink {
+.content__item_shrink {
     flex-basis: 200px;
 }
 
