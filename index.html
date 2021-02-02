@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gözde Hisarcıklılar">
     <title>Piet Mondrian's Art</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
+  <body>
     <main class="content">
       <section class="content__art">
-        <ul class="content__item-group">
-            <li class="content__item content__item_type_horizontal-white"></li>
+       <div class="content__first-part">
+        <ul class="content__item-group content__item-group_flex_row">
+            <li class="content__item content__item_type_horizontal-white content_item_shrink"></li>
             <li class="content__item content__item_type_horizontal-white"></li>
             <li class="content__item content__item_type_horizontal-yellow"></li>
         </ul>
@@ -22,7 +24,7 @@
             <li class="content__item content__item_type_vertical-yellow"></li>
         </ul>
         <div class="content__item-group content__item-group_flex_column">
-            <div class="content__item content__item_type_horizontal-red"></div>
+           <div class="content__item content__item_type_horizontal-red"></div>
            <div class="content__item-group content__item-group_flex_row">
             <div class="content__item-group content__item-group_flex_column">
               <div class="content__item content__item_type_horizontal-black"></div>
@@ -32,7 +34,7 @@
               <div class="content__item content__item_type_row-white"></div>
               <div class="content__item content__item_type_row-white"></div>
               <div class="content__item content__item_type_row-black"></div>
-              <div class="content__item content__item_type_row-white"></div>
+              <div class="content__item content__item_type_borderless-white"></div>
             </div>
            </div>
         </div>
@@ -43,19 +45,20 @@
               <div class="content__item content__item_type_column-white"></div>
             </div>
             <div class="content__item-group content__item-group_flex_column">
-              <div class="content__item content__item_type_horizontal-white"></div>
+              <div class="content__item content__item_type_bordered-white"></div>
               <div class="content__item content__item_type_blue"></div>
-              <div class="content__item content__item_type_horizontal-white"></div>
+              <div class="content__item content__item_type_bordered-white"></div>
             </div>
-                
           </div>
        </div>
-        <ul class="content__item-group">
-            <li class="content__item"></li>
-            <li class="content__item"></li>
-        </ul>
+      </div>
+       <div class="content__second-part">
+        <div class="content__item-group content__item-group_flex_column">
+          <div class="content__item content__item_type_second-white"></div>
+          <div class="content__item content__item_type_second-red"></div>
+        </div>
        </div>
       </section>
     </main>
-</body>
+  </body>
 </html>
