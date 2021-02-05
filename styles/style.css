@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:cadetblue;
+    background-color: cadetblue;
 }
 
 .art {
@@ -11,7 +11,7 @@
     display: flex;
     width: 675px;
     height: 660px;
-    overflow:hidden;
+    overflow: hidden;
     box-shadow: 7px 7px 24px black;
 }
 
@@ -24,14 +24,14 @@
 
 .art__item {
     box-sizing: border-box;
-    border-bottom:12px solid black;
-    border-right:12px solid black;
+    border-bottom: 12px solid black;
+    border-right: 12px solid black;
 }
 
 .art__item_type_horizontal-white {
-    flex-basis:300px;
-    height:70px;
-    background-color:seashell;
+    flex-basis: 300px;
+    height: 70px;
+    background-color: seashell;
 }
 
 .art__item_type_horizontal-yellow {
@@ -72,26 +72,26 @@
 .art__item_type_horizontal-red {
     width: 370px;
     flex-basis: 360px;
-    background-color:red;
+    background-color: red;
 }
 
 .art__item_type_horizontal-black {
     width: 175px;
     flex-basis: 165px;
-    background-color:black;
+    background-color: black;
 }
 
 .art__item_type_white {
     width: 175px;
     flex-basis: 100px;
-    border-bottom:none;
+    border-bottom: none;
     background-color: seashell;
 }
 
 .art__item_type_yellow {
     width: 200px;
     flex-basis: 175px;
-    background-color:gold;
+    background-color: gold;
 }
 
 .art__item_type_column-white {
@@ -103,31 +103,31 @@
 .art__item_type_blue {
     width: 200px;
     flex-basis: 125px;
-    background-color:blue;
+    background-color: blue;
 }
 
 .art__item_type_row-white {
     width: 195px;
     flex-basis: 80px;
-    background-color:seashell;
+    background-color: seashell;
 }
 
 .art__item_type_row-black {
     width: 195px;
     flex-basis: 45px;
-    background-color:black;
+    background-color: black;
 }
 
 .art__item_type_bordered-white {
     width: 200px;
     flex-basis: 80px;
-    background-color:seashell;
+    background-color: seashell;
 }
 
 .art__item_type_borderless-white {
     width: 195px;
     flex-basis: 70px;
-    background-color:seashell;
+    background-color: seashell;
     border-right: none;
 }
 
