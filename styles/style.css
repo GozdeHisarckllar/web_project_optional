@@ -60,11 +60,12 @@
 
 .art__item_type_vertical-yellow {
     width: 80px;
-    flex-basis: 220px;
+    flex-basis: 154px;
     background-color: gold;
+    border-bottom: none;
 }
 
-.art__flex-column {
+.art__flex-columns {
     position: relative;
     display: flex;
 }
@@ -83,7 +84,7 @@
 
 .art__item_type_white {
     width: 175px;
-    flex-basis: 100px;
+    flex-basis: 65px;
     border-bottom: none;
     background-color: seashell;
 }
@@ -120,15 +121,22 @@
 
 .art__item_type_bordered-white {
     width: 200px;
-    flex-basis: 80px;
+    flex-basis: 26px;
     background-color: seashell;
+    border-bottom: none;
+}
+
+.art__item_grown {
+    flex-basis: 80px;
+    border-bottom: 12px solid black;
 }
 
 .art__item_type_borderless-white {
     width: 195px;
-    flex-basis: 70px;
+    flex-basis: 26px;
     background-color: seashell;
     border-right: none;
+    border-bottom: none;
 }
 
 .art__item_type_second-white {
@@ -140,7 +148,7 @@
 
 .art__item_type_second-red {
     width: 25px;
-    flex-basis: 180px;
+    flex-basis: 150px;
     background-color: red;
     border-bottom: none;
     border-right: none;
